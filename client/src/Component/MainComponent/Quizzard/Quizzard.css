@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url("https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans+Condensed:300");
+
+
+
+
+.quizz1 {
+
+   --brand: #03C4A1;
+   --dark: #121212;
+   --white: #ffffff;
+   --pink: #db0f64;
+   --yellow: #FFDC7F;
+   --red: #EB1D36;
+
+   font-family: "Dosis", sans-serif;
+   font-size: 16px;
+   line-height: 1.6;
+   color: var(--dark);
+   letter-spacing: 1px;
+   overflow-x: hidden;
+   /* min-height: 100vh; */
+
+
+}
+
+.quizz1 h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: 1500;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: var(--pink);
+   font-family: 'Rancho', cursive;
+
+}
+
+
+.quizz1 a {
+   text-decoration: none;
+ 
+}
+
+/* header */
+.header-quiz {
+   background-image: url('/public/img/image/quiz.jpg');
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   position: relative;
+   z-index: 2;
+}
+
+.header-quiz::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(16, 34, 46, 0.6);
+   z-index: -1;
+}
+
+.header-quiz h1 {
+   letter-spacing: 0px;
+   font-weight: 600;
+}
+
+.header-quiz h6 {
+   letter-spacing: 2px;
+   font-size: 20px;
+}
+
+
+
+/* enroll button */
+
+.glow-quiz {
+   position: relative;
+   display: inline-block;
+   padding: 12px 32px;
+   color: var(--red);
+   background: white;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-decoration: none;
+   font-size: 34px;
+   /* overflow: hidden; */
+   transition: 0.2s;
+   border-radius: 100px;
+   font-weight: 600;
+   transform: translateY(100px);
+   font-family: 'Rancho', cursive;
+}
+
+
+
+.glow-quiz:hover {
+   color: var(--white);
+   background: var(--red);
+   /* box-shadow: 0 0 10px var(--brand), 0 0 40px var(--brand), 0 0 80px var(--brand), ; */
+   /* transition-delay: 0.3s; */
+   /* display: block; */
+
+}
+
+
+/* button end */
+
+
+
+
+/* NAVBAR */
+/* .navbar-quiz {
+   transition: background 0.5s ease, padding .2s ease;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.navbar-quizd .navbar-nav .nav-link {
+   text-transform: uppercase;
+   font-size: 18px;
+   transition: all 0.8s ease;
+   font-weight: 600;
+   border-bottom: 2px solid transparent;
+   color: var(--white);
+}
+
+.navbar-quizd .navbar-nav .nav-link.active {
+   color: var(--pink) !important;
+} */
+
+
+section {
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+
+ /*about  */
+#about-quiz {
+  /* background-color: antiquewhite; */
+   margin-top : 50px;
+}
+/* about end */
+
+/* categories */
+#categories-quiz{
+   background-color: antiquewhite;
+}
+/* categories end */
+
+/* quotes */
+
+.quotes{
+   padding-top:150px;
+   padding-bottom: 150px;
+   /* background-image: url(/image/hero-icon-bg.svg); */
+}
+ .box_q {
+   background-image: url("/public/img/image/firstslide.jpg");
+   background-color: rgba(16, 34, 46, 0.6);
+   background-blend-mode: color;
+   height: 30rem;
+   text-align: center;
+   /* align-items: center; */
+}
+.box_q h1
+ {
+  padding: 25vh;
+   
+}
+.box_2q {
+   background-image: url("/public/img/image/slide2.jpg");
+   background-color: rgba(16, 34, 46, 0.6);
+   background-blend-mode: color;
+   height: 30rem;
+   text-align: center;
+   /* align-items: center; */
+}
+.box_2q h1
+ {
+  padding: 25vh;
+   
+}
+.box_3q {
+   background-image: url("/public/img/image/slide3.jpg");
+   background-color: rgba(16, 34, 46, 0.6);
+   background-blend-mode: color;
+   height: 30rem;
+   display: flex;
+   text-align: center;
+   /* align-items: center; */
+}
+.box_3q h1
+ {
+  padding: 25vh;
+   
+}
+
+
+/* end quotes */
+
+
+
+/* Schedule  */
+
+#schedule-quiz{
+   background-color: rgba(16, 34, 46, 0.6);
+   margin-top: 15vh;
+   background-image: url(/public/img/image/hero-icon-bg.svg);
+}
+
+
+/* The actual timeline_q (the vertical ruler) */
+.main_q-timeline_q-4 {
+   position: relative;
+   }
+   
+   /* The actual timeline_q (the vertical ruler) */
+   .main_q-timeline_q-4::after {
+   content: '';
+   position: absolute;
+   width: 3px;
+   background-color: #bbb;
+   top: 0;
+   bottom: 0;
+   left: 50%;
+   margin-left: -3px;
+   }
+   
+   /* Container around content */
+   .timeline_q-4 {
+   position: relative;
+   background-color: inherit;
+   width: 50%;
+   }
+   
+   /* The circles on the timeline_q */
+   .timeline_q-4::after {
+   content: '';
+   position: absolute;
+   width: 25px;
+   height: 25px;
+   right: -11px;
+   background-color: #bbb;
+   top: 15px;
+   border-radius: 50%;
+   z-index: 1;
+   }
+   
+   /* Place the container to the left */
+   .q_left-4 {
+   padding: 0px 40px 20px 0px;
+   left: 0;
+   }
+   
+   /* Place the container to the right */
+   .q_right-4 {
+   padding: 0px 0px 20px 40px;
+   left: 50%;
+   }
+   
+   /* Add arrows to the left container (pointing right) */
+   .q_left-4::before {
+   content: " ";
+   position: absolute;
+   top: 18px;
+   z-index: 1;
+   right: 30px;
+   border: medium solid rgb(255, 255, 255);
+   border-width: 10px 0 10px 10px;
+   border-color: transparent transparent transparent rgb(37, 252, 202);
+   }
+   
+   /* Add arrows to the right container (pointing left) */
+   .q_right-4::before {
+   content: " ";
+   position: absolute;
+   top: 18px;
+   z-index: 1;
+   left: 30px;
+   border: medium solid rgba(245, 87, 108, 1);
+   border-width: 10px 10px 10px 0;
+   border-color: transparent rgba(245, 87, 108, 1) transparent transparent;
+   }
+   
+   /* Fix the circle for containers on the right side */
+   .q_right-4::after {
+   left: -14px;
+   }
+   
+   /* Media queries - Responsive timeline_q on screens less than 600px wide */
+   @media screen and (max-width: 600px) {
+   
+   /* Place the timelime to the left */
+   .main_q-timeline_q-4::after {
+   left: 31px;
+   }
+   
+   /* Full-width containers */
+   .timeline_q-4 {
+   width: 100%;
+   padding-left: 70px;
+   padding-right: 25px;
+   }
+   
+   /* Make sure that all arrows are pointing leftwards */
+   .timeline_q-4::before {
+   left: 60px;
+   border: medium solid white;
+   border-width: 10px 10px 10px 0;
+   border-color: transparent white transparent transparent;
+   }
+   
+   /* Make sure all circles are at the same spot */
+   .q_left-4::after,
+   .q_right-4::after {
+   left: 18px;
+   }
+   
+   .q_left-4::before {
+   right: auto;
+   }
+   
+   /* Make all right containers behave like the left ones */
+   .q_right-4 {
+   left: 0%;
+   }
+   }
+   
+   .gradient_q-custom {
+   /* fallback for old browsers */
+   background: #6a11cb;
+   
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: -webkit-linear-gradient(to right, var(--brand) , rgb(33, 234, 200));
+   
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: linear-gradient(to right,var(--brand) , rgb(33, 234, 200) )
+   }
+   
+   .gradient_q-custom-4 {
+   /* fallback for old browsers */
+   background: #f093fb;
+   
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: -webkit-linear-gradient(to left, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+   
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: linear-gradient(to left, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+   }
+
+
+/* end schedule */
+
+/* Rewards */
+
+.pricing-table_q {
+   background-color: var(--pink);
+   padding: 60px 30px;
+}
+
+.pricing-table_q.active {
+   background-color: var(--brand);
+}
+
+.pricing-table_q ul {
+   list-style: none;
+   padding: 0;
+}
+
+.pricing-table_q ul li {
+   margin-top: 20px;
+}
+
+/* FOOTER */
+/* footer {
+   background-color: rgb(32, 29, 29);
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+
+footer ul {
+   list-style: none;
+   margin-bottom: 0;
+}
+
+footer ul li {
+   display: inline-block;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+footer ul li a {
+   color: #fff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 13px;
+}
+
+footer .social-links a {
+   color: #fff;
+   font-size: 24px;
+   margin: 0 5px;
+} */
+
+
+
